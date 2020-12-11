@@ -3,9 +3,14 @@ Controle de Autorizações de Procedimentos Médicos
 
 Passo para rodar o projeto
  - Faça o clone do projeto.
- - Faça o build do projeto com o comando -> mvn clean install
- - Criar imagem da  a aplicação com o comando -> docker build -t sistemacontroleatutorizacaoprocedimentosmedicos .
- - Para rodar a aplicação -> docker run -p 8080:8080 sisitemacontroleatutorizacaoprocedimentosmedicos
+ - Estando na pasta da aplicação "sistemacontroleatutorizacaoprocedimentosmedicos" execute os passos abaixo:
+ 
+     1 - Faça o build do projeto com o comando -> mvn clean install
+     
+     2 - Criar imagem da aplicação execute o comando -> docker build -t sistemacontroleatutorizacaoprocedimentosmedicos .
+     
+     3 - Para rodar a aplicação -> docker run -p 8080:8080 sisitemacontroleatutorizacaoprocedimentosmedicos
+     
 
 Para acesso a base em memoria
    Acesse: http://localhost:8080/h2-console
